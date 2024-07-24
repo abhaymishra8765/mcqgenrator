@@ -1,0 +1,12 @@
+prefix=c:/Users/91829/mcqgenrator/env/Library
+exec_prefix=c:/Users/91829/mcqgenrator/env/Library
+libdir=c:/Users/91829/mcqgenrator/env/Library/lib
+includedir=c:/Users/91829/mcqgenrator/env/Library/include
+
+Name: libzmq
+Description: 0MQ c++ library
+Version: 4.3.5
+Libs: -L${libdir} -lzmq
+Libs.private: -lstdc++ 
+Requires.private: 
+Cflags: -I${includedir} 
